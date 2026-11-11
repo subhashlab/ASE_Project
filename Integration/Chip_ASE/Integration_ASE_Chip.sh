@@ -1,4 +1,3 @@
-#HDAC
 computeMatrix scale-regions \
     -S ac_avg_cntrl.bw \
     -R HDAC_tot_ri_2.bed \
@@ -11,7 +10,6 @@ computeMatrix scale-regions \
     --missingDataAsZero \
     -o HDAC_tot_ri_ac_avg_hn_matrix.gz
     
-#Zoom-In
 computeMatrix reference-point \
     --referencePoint center \
     -S /home/2025rbb1002/M_ChipSeq/M_OP/batch2_t2p/DiffBind/summits_1000/integration/ASE/ASE_heatmaps/plots/ac_avg_cntrl.bw \
